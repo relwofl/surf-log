@@ -1,7 +1,7 @@
 import React from "react"
 
 function Weather(){
-    return <h1>Surfs Up!</h1>
+    return <h1>Surf Forcast!</h1>
 }
 
 export default Weather
