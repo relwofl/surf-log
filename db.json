@@ -1,20 +1,32 @@
 {
   "surfLogs": [
-      {
-          "id": 1,
-          "startTime": "8:00AM",
-          "endTime": "8:30AM",
-          "sessionLength": "short",
-          "surfSize":"small",
-          "sessionNotes":"had a blast"
-      },
-      {
-          "id": 2,
-          "startTime": "8:00AM",
-          "endTime": "8:30AM",
-          "sessionLength": "short",
-          "surfSize":"small",
-          "sessionNotes":"yew!"
-      }
+    {
+      "date": "2022-03-29",
+      "time": "Morning",
+      "note": "Best time ever!",
+      "swell": "small",
+      "id": 1
+    },
+    {
+      "date": "2022-03-29",
+      "time": "Midday",
+      "note": "Surfing with the same",
+      "swell": "Over Head",
+      "id": 2
+    },
+    {
+      "date": "2022-03-29",
+      "time": "Evening",
+      "note": "stoke is there",
+      "swell": "Medium",
+      "id": 3
+    },
+    {
+      "date": "2022-04-13",
+      "time": "",
+      "note": "kristina learned to surf!",
+      "swell": "OverHead",
+      "id": 4
+    }
   ]
 }

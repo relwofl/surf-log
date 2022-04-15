@@ -11,6 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* .home */
+.home h1 {
+  font-size: 18px;
+  color: olive;
+  margin-bottom: 30px;
+  }
+
+  .home {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+/* .navbar */
+.navbar {
+  max-width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+/* .logform */
 
 .logform {
   max-width: 400px;
@@ -24,7 +43,7 @@ code {
 }
 
 .logform h2 {
-font-size: 22px;
+font-size: 18px;
 color: olive;
 margin-bottom: 30px;
 }
@@ -36,4 +55,21 @@ margin-bottom: 30px;
   border: 2px solid yellowgreen;
   box-sizing: border-box;
   display: block;
+}
+
+.logform button {
+  background-color: gray;
+  color: lavender;
+  border: 1;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+
+/* .posts */
+.Logs {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
 }
