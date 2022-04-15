@@ -1,16 +1,11 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0;
+  font-family: "Original Surfer";
+  color: rgb(14, 11, 11);
 }
+/* need to work on this more */
 /* .home */
 .home h1 {
   font-size: 18px;
@@ -25,9 +20,16 @@ code {
   }
 /* .navbar */
 .navbar {
-  max-width: fit-content;
+  padding: 20px;
+  display: flex;
+  max-width: 500px;
   margin: 0 auto;
-  text-align: center;
+  border-bottom: 1px solid orangered;
+  align-items: center;
+}
+
+.navbar links {
+  margin-left: auto;
 }
 /* .logform */
 

@@ -1,9 +1,13 @@
 import { useState } from 'react'
+import { useHistory } from 'react-router-dom'
+
 function LogForm(){
     const [ date, setDate] = useState("")
     const [ time, setTime] = useState("")
     const [ swell, setSwell] = useState("")
     const [ note, setNote] = useState("")
+
+    const history = useHistory()
 
    function handleSubmit (e) {
     e.preventDefault()
@@ -14,6 +18,7 @@ function LogForm(){
         body: JSON.stringify(post)
         }).then(() => {
             console.log('new log added')
+            history.push('/Logs')
         })
     
     }

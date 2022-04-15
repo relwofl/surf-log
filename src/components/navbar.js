@@ -1,10 +1,11 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
 const links = {
-    display: "inline-block",
+    display: "flex",
     width: "50px",
-    padding: "12px",
+    padding: "10px",
 
+    
 }
 function Navbar() {
   return <div className="navbar">
