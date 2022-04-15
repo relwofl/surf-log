@@ -5,7 +5,7 @@ function Logs(){
     const [logs, setLogs] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:3001/surflogs")
+        fetch('http://localhost:3001/surflogs')
           .then(r => r.json())
           .then(logs => setLogs(logs))
           
@@ -16,10 +16,10 @@ return (
         {/* <h1>need to work on this ahh</h1> */}
         {logs.map((log) => (
         <div className="every-log" key={log.id}>
-            <h2> {log.startTime}</h2>
-            <h2> {log.endTime}</h2>
-            <h2> {log.sessionLength}</h2>
-            <h2> {log.surfSize}</h2>
+            <h5> {`${log.startTime} - ${log.endTime}`}</h5>
+           
+            <h1> {log.sessionLength}</h1>
+            <h1> {log.surfSize}</h1>
             <h2> {log.sessionNotes}</h2>
             </div>
         ))}

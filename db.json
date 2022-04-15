@@ -1,0 +1,20 @@
+{
+  "surfLogs": [
+      {
+          "id": 1,
+          "startTime": "8:00AM",
+          "endTime": "8:30AM",
+          "sessionLength": "short",
+          "surfSize":"small",
+          "sessionNotes":"had a blast"
+      },
+      {
+          "id": 2,
+          "startTime": "8:00AM",
+          "endTime": "8:30AM",
+          "sessionLength": "short",
+          "surfSize":"small",
+          "sessionNotes":"yew!"
+      }
+  ]
+}

@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
-import './App.css';
+import './index.css'
+// import './App.css';
 import { Route, Switch } from "react-router-dom"
 import Home from "./components/Home"
 import About from "./components/About"
@@ -27,7 +28,7 @@ function App() {
       <Route path="/Logs">
             <Logs />
       </Route>
-      <Route path="/">
+      <Route exact path="/">
       <Home />
           </Route>
       </Switch>

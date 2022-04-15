@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.logform {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logform label{
+  text-align: left;
+  display: block;
+}
+
+.logform h2 {
+font-size: 22px;
+color: olive;
+margin-bottom: 30px;
+}
+
+.logform input, .logform textarea, .logform select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 2px solid yellowgreen;
+  box-sizing: border-box;
+  display: block;
+}
