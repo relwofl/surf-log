@@ -3,10 +3,9 @@ import { useHistory } from 'react-router-dom'
 
 function LogForm(){
     const [ date, setDate] = useState("")
-    const [ time, setTime] = useState("")
-    const [ swell, setSwell] = useState("")
+    const [ time, setTime] = useState("Morning")
+    const [ swell, setSwell] = useState("Small")
     const [ note, setNote] = useState("")
-
     const history = useHistory()
 
    function handleSubmit (e) {
@@ -28,7 +27,7 @@ function LogForm(){
      <div className="logform">
         <h2>Enter a new surf report below!</h2>
             <form onSubmit={handleSubmit}>
-            <label>date</label>
+            <label>Date</label>
                 <input type="date" value={date} onChange={(e) => setDate(e.target.value)} />
             
             <label>Time </label>
@@ -37,12 +36,7 @@ function LogForm(){
                     <option value="Midday">Midday</option>
                     <option value="Evening">Evening</option>
                 </select>
-                {/* <input type="time" id="stop" /> */}
-            {/* <label>Stop</label>
-                <input type="time" id="stop" /> */}
-
-            {/* <label>Session Length</label>
-                <input type="text" /> */}
+               
             <label>Swell Size </label>
                 <select value={swell} onChange={(e) => setSwell(e.target.value)} >
                     <option value="small">Small</option>
@@ -51,7 +45,7 @@ function LogForm(){
                 </select>
 
             <label>Session Notes</label>
-                <input type="length" value={note} onChange={(e) => setNote(e.target.value)}/>
+                <textarea type="text" value={note} onChange={(e) => setNote(e.target.value)}/>
 
                 <button> Add Session </button>
             </form>

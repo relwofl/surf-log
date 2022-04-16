@@ -4,6 +4,7 @@
   margin: 0;
   font-family: "Original Surfer";
   color: rgb(14, 11, 11);
+
 }
 /* need to work on this more */
 /* .home */
@@ -28,9 +29,6 @@
   align-items: center;
 }
 
-.navbar links {
-  margin-left: auto;
-}
 /* .logform */
 
 .logform {
@@ -50,23 +48,33 @@ color: olive;
 margin-bottom: 30px;
 }
 
-.logform input, .logform textarea, .logform select {
+.logform input, .logform select {
   width: 100%;
   padding: 6px 10px;
   margin: 10px 0;
-  border: 2px solid yellowgreen;
+  border: 1px solid grey;
+  border-radius: 4px;
   box-sizing: border-box;
   display: block;
 }
+.logform textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  resize: vertical;
+}
 
 .logform button {
-  background-color: gray;
-  color: lavender;
+  background-color: darkgray;
+  color: aquamarine;
   border: 1;
   padding: 8px;
-  border-radius: 8px;
+  border-radius: 4px;
   cursor: pointer;
-
 }
 
 /* .posts */
