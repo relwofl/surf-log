@@ -12,7 +12,7 @@ import Logs from "./components/Logs"
 function App() {
   return (
     <div className="App">
-          <h1>Logging Surfs</h1>
+          <h1>Surf Log</h1>
     
      <Navbar />
       <Switch>

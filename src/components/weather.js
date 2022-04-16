@@ -4,8 +4,8 @@ function Weather(){
     return (
     <div className='weather'>
     <h1>Surf Forcast!</h1>
-    <h2>Work in progress</h2>
-    <img src='https://giphy.com/gifs/please-construction-patient-EIiJp9cQ3GeEU'></img>
+    <img src='https://media.giphy.com/media/EIiJp9cQ3GeEU/giphy.gif' 
+    height={250} width={250}/>
 
     </div>
     )

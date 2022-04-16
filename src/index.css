@@ -7,9 +7,9 @@
 }
 /* need to work on this more */
 /* .home */
-.home h1 {
+.home {
   font-size: 18px;
-  color: olive;
+  /* color: darkcyan; */
   margin-bottom: 30px;
   }
 
@@ -20,9 +20,9 @@
   }
 
   .image {
-    display: flex;
+   display: flex;
    justify-content: center;
-   align-items: center
+   align-items: center;
 
 }
 /* .about */
@@ -49,15 +49,12 @@
 }
 
 
-/* .links {
-  padding: 20px;
-  display: flex;
-  max-width: 500px;
-  margin: 0 auto;
-  border-bottom: 1px solid orangered;
-  align-items: center;
-  color: aquamarine;
-} */
+.navbar .links {
+  margin: auto;
+  padding: 6px;
+}
+
+
 
 /* .logform */
 
@@ -74,7 +71,7 @@
 
 .logform h2 {
 font-size: 18px;
-color: olive;
+color: blue;
 margin-bottom: 30px;
 }
 
