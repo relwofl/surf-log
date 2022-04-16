@@ -3,8 +3,7 @@
 *{
   margin: 0;
   font-family: "Original Surfer";
-  color: rgb(14, 11, 11);
-
+  color: black;
 }
 /* need to work on this more */
 /* .home */
@@ -19,6 +18,25 @@
     margin: 0 auto;
     text-align: center;
   }
+
+  .image {
+    display: flex;
+   justify-content: center;
+   align-items: center
+
+}
+/* .about */
+.about {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* .weather */
+.weather {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
 /* .navbar */
 .navbar {
   padding: 20px;
@@ -27,7 +45,19 @@
   margin: 0 auto;
   border-bottom: 1px solid orangered;
   align-items: center;
+  color: aquamarine;
 }
+
+
+/* .links {
+  padding: 20px;
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+  border-bottom: 1px solid orangered;
+  align-items: center;
+  color: aquamarine;
+} */
 
 /* .logform */
 

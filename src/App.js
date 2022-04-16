@@ -6,12 +6,13 @@ import About from "./components/About"
 import Navbar from "./components/Navbar"
 import Weather from "./components/Weather"
 import LogForm from "./components/LogForm"
-import Logs from "./containers/Logs"
+import Logs from "./components/Logs"
 
 
 function App() {
   return (
     <div className="App">
+          <h1>Logging Surfs</h1>
     
      <Navbar />
       <Switch>
