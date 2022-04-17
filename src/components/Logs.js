@@ -18,14 +18,7 @@ function Logs(){
 
 return (
     <div className="Logs">
-     {logs.map((log) => (
-        <div className="log-details" key={log.id}>
-            <h4> {log.title} </h4>
-            <h5> {`${log.date} - ${log.time}`}</h5>
-            <h5> {log.swell} </h5>
-            <p> {log.note}</p>
-            </div>
-     ))}
+     <LogList logs={logs} />
     </div>
 )
 }
