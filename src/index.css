@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
 
-*{
+* {
   margin: 0;
   font-family: "Original Surfer";
   color: black;
@@ -65,7 +65,6 @@
   padding: 20px;
   margin: 50px auto;
   max-width: 500px;
-  border-radius: 5px;
 }
 
 
@@ -118,13 +117,15 @@ margin-bottom: 30px;
 }
 
 /* .posts */
-.Logs {
-  max-width: 400px;
+/* .Logs {
+  max-width: 750px;
   margin: 0 auto;
   text-align: center;
-  border: 5px;
-  
-}
-.Logs .everylog {
-  border: 5px;
+} */
+
+.logdetails {
+  padding-top: 15px;
+  text-align: justify);
+  margin: 25px;
+
 }
