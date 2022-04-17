@@ -42,8 +42,8 @@ function LogForm(){
                
             <label>Swell Size </label>
                 <select value={swell} onChange={(e) => setSwell(e.target.value)} >
-                    <option value="small">Small</option>
-                    <option value="medium">Medium</option>
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
                     <option value="OverHead">Over Head</option>
                 </select>
 
