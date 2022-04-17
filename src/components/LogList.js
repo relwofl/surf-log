@@ -1,5 +1,4 @@
-const LogList = ({ logs, title }) => {
-
+function LogList ({ logs, title }) {
     return (
     <div className="loglist">
          <h3>{title}</h3>
