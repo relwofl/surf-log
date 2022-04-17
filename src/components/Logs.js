@@ -1,5 +1,5 @@
 // import React  from "react"
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import LogList from './LogList';
 
 function Logs(){
@@ -10,11 +10,11 @@ function Logs(){
 
     ])
 
-    // useEffect(() => {
-    //     fetch('http://localhost:3001/surflogs')
-    //       .then(r => r.json())
-    //       .then(logs => setLogs(logs))
-    //   }, []);
+    useEffect(() => {
+        fetch('http://localhost:3001/surflogs')
+          .then(r => r.json())
+          .then(logs => setLogs(logs))
+      }, []);
 
 return (
     <div className="Logs">
