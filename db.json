@@ -1,57 +1,36 @@
 {
   "surfLogs": [
     {
-      "title": "morning surf",
-      "date": "2022-03-29",
+      "title": "Quick surf before work",
+      "date": "2021-05-29",
       "time": "Morning",
-      "note": "Best time ever!",
-      "swell": "small",
+      "note": "Went out before work and caught a few awesome waves with my cousin, Sam. I took out the old green foamie and realized it might be time for a new board. Need to start saving!",
+      "swell": "Medium",
       "id": 1
     },
     {
       "title": "lunch break refill",
-      "date": "2022-03-29",
+      "date": "2021-06-23",
       "time": "Midday",
-      "note": "Surfing solo during lunch. Went out and got worked!",
-      "swell": "Over Head",
+      "note": "Quick lunch break surf. Tide was surf low and waves were sloppy. Fun to get out but need to remember to check the weather. Note to self - don't put on a wesuit for a shrot session!",
+      "swell": "Small",
       "id": 2
     },
     {
-      "title": "solo sun setter",
+      "title": "Surfed till sunset",
       "date": "2022-03-29",
       "time": "Evening",
-      "note": "stoke is there",
-      "swell": "Medium",
+      "note": "Zipepd up to the beach to connect with my cousins after work. Kristina came to watch us surf. A big storm had jsut rolled through and the wind finally settled down. It was bearly glassy out there and we surfed until it was dark. Sam broke his leash and had to rescue his board from the rocks. I need to remember to check my leash more often. Yew!!",
+      "swell": "Over Head",
       "id": 3
     },
     {
+      "title": "Post dinner surf",
       "date": "2022-04-21",
       "time": "Evening",
-      "note": "so fun. let's do it again ",
-      "swell": "medium",
+      "note": "Went out after dinner before it got dark and caught a few good waves. It was great to get back in the water after weeks of not surfing! ",
+      "swell": "Medium",
       "id": 4
-    },
-    {
-      "date": "99999-09-09",
-      "time": "Midday",
-      "note": "went body surfing",
-      "swell": "medium",
-      "id": 5
-    },
-    {
-      "date": "0123-12-31",
-      "time": "Midday",
-      "note": "werwer",
-      "swell": "medium",
-      "id": 6
-    },
-    {
-      "title": "is this working now?",
-      "date": "2022-04-13",
-      "time": "Morning",
-      "note": "pre work surf!",
-      "swell": "Small",
-      "id": 7
     }
   ]
 }
