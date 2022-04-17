@@ -11,11 +11,12 @@ import Logs from "./components/Logs"
 
 function App() {
   return (
+<Router>
     <div className="App">
       <h1>Surf Log</h1>
-        <Router>
+      <Navbar />
         <div className="body">
-        <Navbar />
+        
             <Switch>
              <Route exact path="/">
                   <Home />
@@ -34,10 +35,8 @@ function App() {
               </Route>
             </Switch>
             </div>
-         </Router>
-        
     </div>
-
+    </Router>
 
   )
 }
