@@ -1,6 +1,7 @@
 {
   "surfLogs": [
     {
+      "title": "morning surf",
       "date": "2022-03-29",
       "time": "Morning",
       "note": "Best time ever!",
@@ -8,13 +9,15 @@
       "id": 1
     },
     {
+      "title": "lunch break refill",
       "date": "2022-03-29",
       "time": "Midday",
-      "note": "Surfing with the same",
+      "note": "Surfing solo during lunch. Went out and got worked!",
       "swell": "Over Head",
       "id": 2
     },
     {
+      "title": "solo sun setter",
       "date": "2022-03-29",
       "time": "Evening",
       "note": "stoke is there",
@@ -22,18 +25,33 @@
       "id": 3
     },
     {
-      "date": "2022-04-16",
-      "time": "Midday",
-      "note": "Kristina went surfing for the first time! She went out on the sea log and had a blast catching waves with the guys ",
-      "swell": "Small",
+      "date": "2022-04-21",
+      "time": "Evening",
+      "note": "so fun. let's do it again ",
+      "swell": "medium",
       "id": 4
     },
     {
-      "date": "2022-04-20",
-      "time": "Evening",
-      "note": "Kristina went surfing for the first time ever.... not! ",
-      "swell": "OverHead",
+      "date": "99999-09-09",
+      "time": "Midday",
+      "note": "went body surfing",
+      "swell": "medium",
       "id": 5
+    },
+    {
+      "date": "0123-12-31",
+      "time": "Midday",
+      "note": "werwer",
+      "swell": "medium",
+      "id": 6
+    },
+    {
+      "title": "is this working now?",
+      "date": "2022-04-13",
+      "time": "Morning",
+      "note": "pre work surf!",
+      "swell": "Small",
+      "id": 7
     }
   ]
 }
