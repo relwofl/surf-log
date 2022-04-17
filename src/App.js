@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <h1>Surf Log</h1>
         <Router>
-        <div>
+        <div className="body">
         <Navbar />
             <Switch>
              <Route exact path="/">
