@@ -124,8 +124,12 @@ margin-bottom: 30px;
 } */
 
 .logdetails {
-  padding-top: 15px;
-  text-align: justify);
+  padding: 15px, 15px;
   margin: 25px;
+  border-bottom: 4px dashed orange;
 
+}
+
+.logdetails:hover {
+box-shadow: 2px, 2px, 2px;
 }

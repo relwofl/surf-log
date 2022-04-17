@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar"
 import Weather from "./components/Weather"
 import LogForm from "./components/LogForm"
 import Logs from "./components/Logs"
+import SingleLog from "./components/SingleLog"
 
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
               </Route>
               <Route path="/Logs">
                   <Logs />
+              </Route>
+              <Route path="/Session/:id">
+                  <SingleLog />
               </Route>
             </Switch>
             </div>
