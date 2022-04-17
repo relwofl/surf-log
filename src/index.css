@@ -7,11 +7,7 @@
 }
 /* need to work on this more */
 /* .home */
-.home {
-  font-size: 18px;
-  /* color: darkcyan; */
-  margin-bottom: 30px;
-  }
+
 
   .home {
     max-width: 400px;
@@ -20,7 +16,8 @@
   }
 
   .image {
-   display: flex;
+   display: center;
+   max-width: 500px;
    justify-content: center;
    align-items: center;
 
@@ -42,21 +39,33 @@
   padding: 20px;
   display: flex;
   max-width: 500px;
-  margin: 0 auto;
+  margin: 5px auto;
   border-bottom: 1px solid orangered;
   align-items: center;
   color: aquamarine;
 }
 
 
-.navbar .links {
+ .navbar .links {
   margin: auto;
-  padding: 6px;
+  padding-left: 2px;
+  padding-right: 2px;
+  
+}
+.navbar a {
+  margin: auto;
+  padding: 7px;
+  text-decoration: dashed;
+}
+
+.navbar a:hover {
+  color: blueviolet;
 }
 .body {
   padding: 20px;
-  display: flex;
-  align-items: center;
+  margin: 50px auto;
+  max-width: 500px;
+  border-radius: 5px;
 }
 
 
@@ -113,4 +122,9 @@ margin-bottom: 30px;
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
+  border: 5px;
+  
+}
+.Logs .every-log {
+  color: pink;
 }

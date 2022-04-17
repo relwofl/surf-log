@@ -16,7 +16,6 @@ function App() {
       <h1>Surf Log</h1>
       <Navbar />
         <div className="body">
-        
             <Switch>
              <Route exact path="/">
                   <Home />
