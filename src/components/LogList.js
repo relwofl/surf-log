@@ -1,7 +1,8 @@
-const LogList = ({ logs }) => {
+const LogList = ({ logs, title }) => {
 
     return (
     <div className="log-list">
+         <h3>{title}</h3>
         {logs.map((log) => (
         <div className="log-details" key={log.id}>
             <h4> {log.title} </h4>

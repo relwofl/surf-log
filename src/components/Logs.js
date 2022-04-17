@@ -3,12 +3,7 @@ import { useEffect, useState } from 'react'
 import LogList from './LogList';
 
 function Logs(){
-    const [logs, setLogs] = useState([
-        {title: "lunch break refill", date: "2022-03-27", time: "Midday", note: " Went out and got worked!", swell: "Over Head", id:1},
-        {title: "lunch break refill", date: "2022-03-28", time: "Midday", note: "Surfing solo during lunch. Went out and got worked!", swell: "Over Head", id:3},
-        {title: "lunch break refill", date: "2022-03-29", time: "Morning", note: "yew!", swell: "Over Head", id:3}
-
-    ])
+    const [logs, setLogs] = useState([])
 
     useEffect(() => {
         fetch('http://localhost:3001/surflogs')
@@ -18,7 +13,7 @@ function Logs(){
 
 return (
     <div className="Logs">
-     <LogList logs={logs} />
+     <LogList logs={logs} title="All Sessions"/>
     </div>
 )
 }
