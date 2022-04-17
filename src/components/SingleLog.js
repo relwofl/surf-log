@@ -1,10 +1,10 @@
 import { useParams } from "react-router-dom"
 
-function SingleLog () {
+function SingleLog() {
     const { id } =  useParams
  return (
      <div className="single-log">
-         <h2> Session - { id } </h2>
+         <h2>Session - { id }</h2>
      </div>
  )   
 }

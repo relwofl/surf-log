@@ -124,12 +124,10 @@ margin-bottom: 30px;
 } */
 
 .logdetails {
-  padding: 15px, 15px;
   margin: 25px;
-  border-bottom: 4px dashed orange;
-
+  box-sizing: border-box;
 }
+
 
 .logdetails:hover {
-box-shadow: 2px, 2px, 2px;
-}
+background-color: lightblue;}
