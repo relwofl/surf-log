@@ -17,7 +17,6 @@ function LogForm(){
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(post)
         }).then(() => {
-            console.log('new log added')
             history.push('/Logs')
         })
     
