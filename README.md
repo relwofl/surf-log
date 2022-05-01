@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Surf Log
+The surf log was created to help me document surf sessions throughout the year. As I get older, free time seems to be tough to find. Surfing is one of my favorite hobbies, however, I often pass up the opportunity to go surfing because it's been so long. The surf log will allow me to reminisce about past sessions, helping motivate me to get back in the water! 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## To Get Started
+To get started, run the following command in the project directory:
 
-## Available Scripts
+ `npm installed`
 
-In the project directory, you can run:
+Once NPM has been installed, run:
 
-### `npm start`
+ `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Now that the React application is up and running, we'll need to spin up the server. You can run:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ `npx json-server --watch db.json --port 3001`
 
-### `npm test`
+Once the server is up and running, you're ready to use the App
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Using the App
+The App consists of a Home, About, Weather, New Session, and Sessions pages. The Home page will eventually house pictures from past surf trips but for now, it's using a stock photo to help keep the stock alive. 
 
-### `npm run build`
+The About page gives the user more information on why the project was created. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The new session page allows the user to create a post about their most recent surf session. Once a new session is submitted, the user is redirected to the Sessions page. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The Sessions page hosts all the posts. This allows the user to look back and reminisce about past sessions. 
 
-### `npm run eject`
+In the future, the weather data may also help users make informed decisions on when to go out. Since free time is short, the wave data and session notes should motivate us to get out there even when the forecast isn't promising! 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### User Stories
+* As a user I can post a surf log. 
+* As a user I can view all surf logs. 
+* As a user I can nvaigate to different pages.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Surfs up! 

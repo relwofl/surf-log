@@ -22,7 +22,6 @@ function LogForm(){
     
     }
 
-   
     return (
      <div className="logform">
         <h2>Enter a new surf report below!</h2>
@@ -31,6 +30,7 @@ function LogForm(){
             <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
             <label>Date</label>
                 <input type="date" value={date} onChange={(e) => setDate(e.target.value)} />
+            
             
             <label>Time </label>
                 <select value={time} onChange={(e) => setTime(e.target.value)}>
