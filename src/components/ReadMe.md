@@ -1,18 +1,46 @@
+# Surf Log
+The surf log was created to help me document surf sessions throughout the year. As I get older, free time seems to be tough to find. Surfing is one of my favorite hobbies, however, I often pass up the opportunity to go surfing because it's been so long. The surf log will allow me to reminisce about past sessions, helping motivate me to get back in the water! 
+
+## To Get Started
 To get started, run the following command in the project directory:
 
-### `npm installed`
+ `npm installed`
 
 Once NPM has been installed, run:
 
-### `npm start`
+ `npm start`
 
 Now that the React application is up and running, we'll need to spin up the server. You can run:
 
-### `npx json-server --watch db.json --port 3001`
+ `npx json-server --watch db.json --port 3001`
 
 Once the server is up and running, you're ready to use the App
 
-The surf log was created to help me document surf sessions throughout the year. As I get older, free time seems to be tough to find. Surfing is one of my favorite hobbies, however, I often pass up the opportunity to go surfing because it's been so long. The surf log will allow me to reminisce about past sessions, helping motivate me to get back in the water! 
+## Using the App
+Explain how to use app
+
+Gifs
+### User Stories
+* Describe the stories
+
+## Functionality
+
+
+## Other Resources
+Apis
+
+Bootstrap
+____
+
+**bold**
+
+***italize***
+
+[LinkedIn](https://linkedin.com)
+
+```
+function
+```
 
 The App consists of a Home, About, Weather, New Session, and Sessions pages. The Home page will eventually house pictures from past surf trips but for now, it's using a stock photo to help keep the stock alive. 
 
