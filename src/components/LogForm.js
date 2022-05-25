@@ -2,11 +2,11 @@ import { useState } from 'react'
 import { useHistory } from 'react-router-dom'
 
 function LogForm(){
-    const [ date, setDate] = useState("")
-    const [ time, setTime] = useState("Morning")
-    const [ swell, setSwell] = useState("Small")
-    const [ note, setNote] = useState("")
-    const [title, setTitle] = useState("")
+    const [ date, setDate ] = useState("")
+    const [ time, setTime ] = useState("Morning")
+    const [ swell, setSwell ] = useState("Small")
+    const [ note, setNote ] = useState("")
+    const [ title, setTitle ] = useState("")
     const history = useHistory()
 
    function handleSubmit (e) {
@@ -28,9 +28,9 @@ function LogForm(){
             <form onSubmit={handleSubmit}>
             <label>Title</label>
             <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
+            
             <label>Date</label>
                 <input type="date" value={date} onChange={(e) => setDate(e.target.value)} />
-            
             
             <label>Time </label>
                 <select value={time} onChange={(e) => setTime(e.target.value)}>
